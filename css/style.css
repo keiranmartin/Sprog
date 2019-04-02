@@ -1,0 +1,23 @@
+/*------------------------------------------------------------
+GENERAL
+-------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Merriweather');
+
+h1,h2,h3,h4,h5{
+    font-family: font-family: 'Josefin Sans', sans-serif;
+}
+p, a, strong, em, ul, li, figcaption{
+    font-family: 'Merriweather', serif;
+}
+html{
+    overflow: hidden;
+}
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(135deg, #ffffff 0%,#ffe6e7 44%,#ffd1d1 75%,#ffb8b8 100%);
+}
+figure{
+    margin-top: 0;
+}
+
