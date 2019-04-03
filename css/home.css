@@ -1,10 +1,83 @@
-
+/*----------------------------------
+LOGO
+-----------------------------------*/
 .logo img{
     width: 289px;
     margin-top: 92px;
-    margin-left: 102px
+    margin-left: 202px
 }
 .logo figcaption{
     font-size: 24px;
+    margin-left: 260px;
+}
+
+/*----------------------------------
+QOUTE
+-----------------------------------*/
+.qoute{
+    font-size: 18px;
+    width: 358px;
+    margin-left: 242px;
+    margin-top: 140px;
+    position: relative;
+}
+.qoute p::before{
+    content: open-quote;
+    position: absolute;
+    left: -25px;
+    top: -10px;
+    font-size: 30px;
+    color: red;
+}
+.qoute p::after{
+    content: close-quote;
+    position: absolute;
+    left: 160px;
+    bottom: 20px;
+    font-size: 30px;
+    color: red;
+}
+.qoute em{
     margin-left: 160px;
+}
+/*----------------------------------
+APP BUTTONS
+-----------------------------------*/
+.app img{
+    height: 50px;
+}
+.app{
+    margin: 150px 230px;
+}
+.app a:hover img{
+    transform: scale(1.05);
+    transition: all 0.2s;
+}
+/*----------------------------------
+PHONE
+-----------------------------------*/
+.phone img{
+    width: 70%;
+    position: absolute;
+    top: 92px;
+    right: 0;
+    z-index: 5;
+}
+/*----------------------------------
+NAV
+-----------------------------------*/
+.nav{
+    right: 20px;
+    top: 20px;
+    position: absolute;
+}
+.nav i{
+    font-size: 16px;
+}
+.nav a{
+    background-color: #FF6162 !important;
+}
+.nav a:hover{
+    opacity: 0.5;
+    transition: opacity .3s;
 }
